@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+# hexo-theme-butterfly
 
-You can use the [editor on GitHub](https://github.com/dafeng0912/dafeng0912/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[预览](https://jerryc.me/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+一款基于[hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody)修改的主题
 
-### Markdown
+## 安装
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+在你的博客根目录里
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+如果想要安裝比較新的dev分支，可以
 
-### Jekyll Themes
+```
+git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dafeng0912/dafeng0912/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 应用主题
+修改hexo配置文件`_config.yml`，把主题改为`Butterfly`
 
-### Support or Contact
+```
+theme: Butterfly
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+>如果你没有pug以及stylus的渲染器，请下载安装： npm install hexo-renderer-jade hexo-renderer-stylus --save or yarn add hexo-renderer-jade hexo-renderer-stylus
+
+## 文档
+
+可查看或[这里](https://docs.jerryc.me/)或[这里](https://jerryc.me/posts/21cfbf15)
+
+
+## 截图
+![image](https://user-images.githubusercontent.com/16351105/58887365-1272f780-8718-11e9-9329-3292c6ba20d4.png)
+![image](https://user-images.githubusercontent.com/16351105/58887457-3cc4b500-8718-11e9-9417-2bdea603c92e.png)
